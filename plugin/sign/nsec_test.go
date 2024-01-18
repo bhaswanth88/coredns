@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/coredns/coredns/plugin/file"
+	"github.com/bhaswanth88/coredns/plugin/file"
 )
 
 func TestNames(t *testing.T) {

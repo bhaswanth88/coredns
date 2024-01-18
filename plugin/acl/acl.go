@@ -5,10 +5,10 @@ import (
 	"net"
 	"strings"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/metrics"
-	clog "github.com/coredns/coredns/plugin/pkg/log"
-	"github.com/coredns/coredns/request"
+	"github.com/bhaswanth88/coredns/plugin"
+	"github.com/bhaswanth88/coredns/plugin/metrics"
+	clog "github.com/bhaswanth88/coredns/plugin/pkg/log"
+	"github.com/bhaswanth88/coredns/request"
 
 	"github.com/infobloxopen/go-trees/iptree"
 	"github.com/miekg/dns"

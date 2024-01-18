@@ -10,8 +10,8 @@ This plugin implements the [Kubernetes DNS-Based Service Discovery
 Specification](https://github.com/kubernetes/dns/blob/master/docs/specification.md).
 
 CoreDNS running the kubernetes plugin can be used as a replacement for kube-dns in a kubernetes
-cluster.  See the [deployment](https://github.com/coredns/deployment) repository for details on [how
-to deploy CoreDNS in Kubernetes](https://github.com/coredns/deployment/tree/master/kubernetes).
+cluster.  See the [deployment](https://github.com/bhaswanth88/deployment) repository for details on [how
+to deploy CoreDNS in Kubernetes](https://github.com/bhaswanth88/deployment/tree/master/kubernetes).
 
 [stubDomains and upstreamNameservers](https://kubernetes.io/blog/2017/04/configuring-private-dns-zones-upstream-nameservers-kubernetes/)
 are implemented via the *forward* plugin. See the examples below.

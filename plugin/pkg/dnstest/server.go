@@ -3,7 +3,7 @@ package dnstest
 import (
 	"net"
 
-	"github.com/coredns/coredns/plugin/pkg/reuseport"
+	"github.com/bhaswanth88/coredns/plugin/pkg/reuseport"
 
 	"github.com/miekg/dns"
 )

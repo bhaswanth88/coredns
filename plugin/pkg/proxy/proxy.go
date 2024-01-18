@@ -6,8 +6,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/coredns/coredns/plugin/pkg/log"
-	"github.com/coredns/coredns/plugin/pkg/up"
+	"github.com/bhaswanth88/coredns/plugin/pkg/log"
+	"github.com/bhaswanth88/coredns/plugin/pkg/up"
 )
 
 // Proxy defines an upstream host.

@@ -4,7 +4,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/coredns/coredns/plugin/pkg/dnsutil"
+	"github.com/bhaswanth88/coredns/plugin/pkg/dnsutil"
 
 	"github.com/miekg/dns"
 )

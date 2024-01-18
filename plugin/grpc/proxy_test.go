@@ -7,10 +7,10 @@ import (
 	"path"
 	"testing"
 
+	"github.com/bhaswanth88/coredns/pb"
+	"github.com/bhaswanth88/coredns/plugin/pkg/dnstest"
+	"github.com/bhaswanth88/coredns/plugin/test"
 	"github.com/coredns/caddy"
-	"github.com/coredns/coredns/pb"
-	"github.com/coredns/coredns/plugin/pkg/dnstest"
-	"github.com/coredns/coredns/plugin/test"
 
 	"github.com/miekg/dns"
 	"google.golang.org/grpc"

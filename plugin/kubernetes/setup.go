@@ -7,12 +7,12 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/bhaswanth88/coredns/core/dnsserver"
+	"github.com/bhaswanth88/coredns/plugin"
+	"github.com/bhaswanth88/coredns/plugin/pkg/dnsutil"
+	clog "github.com/bhaswanth88/coredns/plugin/pkg/log"
+	"github.com/bhaswanth88/coredns/plugin/pkg/upstream"
 	"github.com/coredns/caddy"
-	"github.com/coredns/coredns/core/dnsserver"
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/pkg/dnsutil"
-	clog "github.com/coredns/coredns/plugin/pkg/log"
-	"github.com/coredns/coredns/plugin/pkg/upstream"
 
 	"github.com/go-logr/logr"
 	"github.com/miekg/dns"

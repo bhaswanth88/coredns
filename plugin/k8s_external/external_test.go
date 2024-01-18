@@ -4,11 +4,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/coredns/coredns/plugin/kubernetes"
-	"github.com/coredns/coredns/plugin/kubernetes/object"
-	"github.com/coredns/coredns/plugin/pkg/dnstest"
-	"github.com/coredns/coredns/plugin/test"
-	"github.com/coredns/coredns/request"
+	"github.com/bhaswanth88/coredns/plugin/kubernetes"
+	"github.com/bhaswanth88/coredns/plugin/kubernetes/object"
+	"github.com/bhaswanth88/coredns/plugin/pkg/dnstest"
+	"github.com/bhaswanth88/coredns/plugin/test"
+	"github.com/bhaswanth88/coredns/request"
 
 	"github.com/miekg/dns"
 	api "k8s.io/api/core/v1"

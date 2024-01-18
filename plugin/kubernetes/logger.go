@@ -1,7 +1,7 @@
 package kubernetes
 
 import (
-	clog "github.com/coredns/coredns/plugin/pkg/log"
+	clog "github.com/bhaswanth88/coredns/plugin/pkg/log"
 
 	"github.com/go-logr/logr"
 )

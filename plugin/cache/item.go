@@ -4,8 +4,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coredns/coredns/plugin/cache/freq"
-	"github.com/coredns/coredns/request"
+	"github.com/bhaswanth88/coredns/plugin/cache/freq"
+	"github.com/bhaswanth88/coredns/request"
 
 	"github.com/miekg/dns"
 )

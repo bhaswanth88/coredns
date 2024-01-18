@@ -7,11 +7,11 @@ import (
 	"strconv"
 	gotmpl "text/template"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/metadata"
-	"github.com/coredns/coredns/plugin/metrics"
-	"github.com/coredns/coredns/plugin/pkg/fall"
-	"github.com/coredns/coredns/request"
+	"github.com/bhaswanth88/coredns/plugin"
+	"github.com/bhaswanth88/coredns/plugin/metadata"
+	"github.com/bhaswanth88/coredns/plugin/metrics"
+	"github.com/bhaswanth88/coredns/plugin/pkg/fall"
+	"github.com/bhaswanth88/coredns/request"
 
 	"github.com/miekg/dns"
 )

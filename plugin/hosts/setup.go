@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/bhaswanth88/coredns/core/dnsserver"
+	"github.com/bhaswanth88/coredns/plugin"
+	clog "github.com/bhaswanth88/coredns/plugin/pkg/log"
 	"github.com/coredns/caddy"
-	"github.com/coredns/coredns/core/dnsserver"
-	"github.com/coredns/coredns/plugin"
-	clog "github.com/coredns/coredns/plugin/pkg/log"
 )
 
 var log = clog.NewWithPlugin("hosts")

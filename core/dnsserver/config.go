@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/bhaswanth88/coredns/plugin"
+	"github.com/bhaswanth88/coredns/request"
 	"github.com/coredns/caddy"
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/request"
 )
 
 // Config configuration for a single server.

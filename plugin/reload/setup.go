@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/bhaswanth88/coredns/plugin"
+	clog "github.com/bhaswanth88/coredns/plugin/pkg/log"
 	"github.com/coredns/caddy"
-	"github.com/coredns/coredns/plugin"
-	clog "github.com/coredns/coredns/plugin/pkg/log"
 )
 
 var log = clog.NewWithPlugin("reload")

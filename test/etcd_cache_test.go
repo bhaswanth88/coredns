@@ -6,7 +6,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/coredns/coredns/plugin/etcd/msg"
+	"github.com/bhaswanth88/coredns/plugin/etcd/msg"
 
 	"github.com/miekg/dns"
 )

@@ -22,7 +22,7 @@ CoreDNS treats:
 as special and will then assume *nothing* has been written to the client. In all other cases it
 assumes something has been written to the client (by the plugin).
 
-The [*example*](https://github.com/coredns/example) plugin shows a bare-bones implementation that
+The [*example*](https://github.com/bhaswanth88/example) plugin shows a bare-bones implementation that
 can be used as a starting point for your plugin. This plugin has tests and extensive comments in the
 code.
 
@@ -41,7 +41,7 @@ levels available are `log.Info`, `log.Warning`, `log.Error`, `log.Debug`. Each o
 a `f` variant. The plugin's name should be included, by using the log package like so:
 
 ~~~ go
-import clog "github.com/coredns/coredns/plugin/pkg/log"
+import clog "github.com/bhaswanth88/coredns/plugin/pkg/log"
 
 var log = clog.NewWithPlugin("whoami")
 

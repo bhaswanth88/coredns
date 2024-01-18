@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/coredns/coredns/plugin/pkg/transport"
+	"github.com/bhaswanth88/coredns/plugin/pkg/transport"
 
 	"github.com/miekg/dns"
 )

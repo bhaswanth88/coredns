@@ -3,8 +3,8 @@ package kubernetes
 import (
 	"net"
 
+	"github.com/bhaswanth88/coredns/core/dnsserver"
 	"github.com/coredns/caddy"
-	"github.com/coredns/coredns/core/dnsserver"
 )
 
 // boundIPs returns the list of non-loopback IPs that CoreDNS is bound to

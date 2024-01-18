@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"time"
 
-	clog "github.com/coredns/coredns/plugin/pkg/log"
-	"github.com/coredns/coredns/plugin/pkg/reuseport"
+	clog "github.com/bhaswanth88/coredns/plugin/pkg/log"
+	"github.com/bhaswanth88/coredns/plugin/pkg/reuseport"
 )
 
 var log = clog.NewWithPlugin("health")

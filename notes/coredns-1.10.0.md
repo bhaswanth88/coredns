@@ -20,5 +20,5 @@ Ondřej Benkovský
 
 ## Noteworthy Changes
 
-* plugin/view: Advanced routing interface and new 'view' plugin (https://github.com/coredns/coredns/pull/5538)
-* plugin/template: Add parseInt template function (https://github.com/coredns/coredns/pull/5609)
+* plugin/view: Advanced routing interface and new 'view' plugin (https://github.com/bhaswanth88/coredns/pull/5538)
+* plugin/template: Add parseInt template function (https://github.com/bhaswanth88/coredns/pull/5609)

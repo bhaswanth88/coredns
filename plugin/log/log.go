@@ -5,12 +5,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/pkg/dnstest"
-	clog "github.com/coredns/coredns/plugin/pkg/log"
-	"github.com/coredns/coredns/plugin/pkg/replacer"
-	"github.com/coredns/coredns/plugin/pkg/response"
-	"github.com/coredns/coredns/request"
+	"github.com/bhaswanth88/coredns/plugin"
+	"github.com/bhaswanth88/coredns/plugin/pkg/dnstest"
+	clog "github.com/bhaswanth88/coredns/plugin/pkg/log"
+	"github.com/bhaswanth88/coredns/plugin/pkg/replacer"
+	"github.com/bhaswanth88/coredns/plugin/pkg/response"
+	"github.com/bhaswanth88/coredns/request"
 
 	"github.com/miekg/dns"
 )

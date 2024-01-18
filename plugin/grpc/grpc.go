@@ -6,9 +6,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/debug"
-	"github.com/coredns/coredns/request"
+	"github.com/bhaswanth88/coredns/plugin"
+	"github.com/bhaswanth88/coredns/plugin/debug"
+	"github.com/bhaswanth88/coredns/request"
 
 	"github.com/miekg/dns"
 	ot "github.com/opentracing/opentracing-go"

@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/coredns/coredns/plugin/metadata"
-	"github.com/coredns/coredns/request"
+	"github.com/bhaswanth88/coredns/plugin/metadata"
+	"github.com/bhaswanth88/coredns/request"
 )
 
 func TestInCidr(t *testing.T) {

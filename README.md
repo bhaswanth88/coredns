@@ -1,12 +1,12 @@
 [![CoreDNS](https://coredns.io/images/CoreDNS_Colour_Horizontal.png)](https://coredns.io)
 
-[![Documentation](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/coredns/coredns)
-![CodeQL](https://github.com/coredns/coredns/actions/workflows/codeql-analysis.yml/badge.svg)
-![Go Tests](https://github.com/coredns/coredns/actions/workflows/go.test.yml/badge.svg)
+[![Documentation](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/bhaswanth88/coredns)
+![CodeQL](https://github.com/bhaswanth88/coredns/actions/workflows/codeql-analysis.yml/badge.svg)
+![Go Tests](https://github.com/bhaswanth88/coredns/actions/workflows/go.test.yml/badge.svg)
 [![CircleCI](https://circleci.com/gh/coredns/coredns.svg?style=shield)](https://circleci.com/gh/coredns/coredns)
 [![Code Coverage](https://img.shields.io/codecov/c/github/coredns/coredns/master.svg)](https://codecov.io/github/coredns/coredns?branch=master)
 [![Docker Pulls](https://img.shields.io/docker/pulls/coredns/coredns.svg)](https://hub.docker.com/r/coredns/coredns)
-[![Go Report Card](https://goreportcard.com/badge/github.com/coredns/coredns)](https://goreportcard.com/report/coredns/coredns)
+[![Go Report Card](https://goreportcard.com/badge/github.com/bhaswanth88/coredns)](https://goreportcard.com/report/coredns/coredns)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1250/badge)](https://bestpractices.coreinfrastructure.org/projects/1250)
 
 CoreDNS is a DNS server/forwarder, written in Go, that chains [plugins](https://coredns.io/plugins).
@@ -61,7 +61,7 @@ See [here](https://github.com/golang/go/wiki/Modules) for `go mod` details.
 Then, check out the project and run `make` to compile the binary:
 
 ~~~
-$ git clone https://github.com/coredns/coredns
+$ git clone https://github.com/bhaswanth88/coredns
 $ cd coredns
 $ make
 ~~~
@@ -75,7 +75,7 @@ setup a Go environment, you could build CoreDNS easily:
 
 ```
 docker run --rm -i -t \
-    -v $PWD:/go/src/github.com/coredns/coredns -w /go/src/github.com/coredns/coredns \
+    -v $PWD:/go/src/github.com/bhaswanth88/coredns -w /go/src/github.com/bhaswanth88/coredns \
         golang:1.21 sh -c 'GOFLAGS="-buildvcs=false" make gen && GOFLAGS="-buildvcs=false" make'
 ```
 
@@ -257,7 +257,7 @@ When no transport protocol is specified the default `dns://` is assumed.
 
 We're most active on Github (and Slack):
 
-- Github: <https://github.com/coredns/coredns>
+- Github: <https://github.com/bhaswanth88/coredns>
 - Slack: #coredns on <https://slack.cncf.io>
 
 More resources can be found:
@@ -275,7 +275,7 @@ guidelines](./.github/CONTRIBUTING.md).
 ## Deployment
 
 Examples for deployment via systemd and other use cases can be found in the [deployment
-repository](https://github.com/coredns/deployment).
+repository](https://github.com/bhaswanth88/deployment).
 
 ## Deprecation Policy
 
@@ -306,4 +306,4 @@ issue, instead send your report privately to `security@coredns.io`. Security rep
 appreciated and we will publicly thank you for it.
 
 Please consult [security vulnerability disclosures and security fix and release process
-document](https://github.com/coredns/coredns/blob/master/.github/SECURITY.md)
+document](https://github.com/bhaswanth88/coredns/blob/master/.github/SECURITY.md)

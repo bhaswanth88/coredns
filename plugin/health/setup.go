@@ -5,8 +5,8 @@ import (
 	"net"
 	"time"
 
+	"github.com/bhaswanth88/coredns/plugin"
 	"github.com/coredns/caddy"
-	"github.com/coredns/coredns/plugin"
 )
 
 func init() { plugin.Register("health", setup) }

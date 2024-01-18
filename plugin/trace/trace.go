@@ -10,14 +10,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/coredns/coredns/core/dnsserver"
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/metadata"
-	"github.com/coredns/coredns/plugin/pkg/dnstest"
-	clog "github.com/coredns/coredns/plugin/pkg/log"
-	"github.com/coredns/coredns/plugin/pkg/rcode"
-	_ "github.com/coredns/coredns/plugin/pkg/trace" // Plugin the trace package.
-	"github.com/coredns/coredns/request"
+	"github.com/bhaswanth88/coredns/core/dnsserver"
+	"github.com/bhaswanth88/coredns/plugin"
+	"github.com/bhaswanth88/coredns/plugin/metadata"
+	"github.com/bhaswanth88/coredns/plugin/pkg/dnstest"
+	clog "github.com/bhaswanth88/coredns/plugin/pkg/log"
+	"github.com/bhaswanth88/coredns/plugin/pkg/rcode"
+	_ "github.com/bhaswanth88/coredns/plugin/pkg/trace" // Plugin the trace package.
+	"github.com/bhaswanth88/coredns/request"
 
 	"github.com/miekg/dns"
 	ot "github.com/opentracing/opentracing-go"
@@ -191,7 +191,7 @@ func (t *trace) ServeDNS(ctx context.Context, w dns.ResponseWriter, r *dns.Msg) 
 	if !plugin.ClientWrite(status) {
 		// when no response was written, fallback to status returned from next plugin as this status
 		// is actually used as rcode of DNS response
-		// see https://github.com/coredns/coredns/blob/master/core/dnsserver/server.go#L318
+		// see https://github.com/bhaswanth88/coredns/blob/master/core/dnsserver/server.go#L318
 		rc = status
 	}
 	span.SetTag(t.tagSet.Rcode, rcode.ToString(rc))

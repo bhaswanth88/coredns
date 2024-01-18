@@ -10,14 +10,14 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/bhaswanth88/coredns/plugin/metrics/vars"
+	"github.com/bhaswanth88/coredns/plugin/pkg/dnsutil"
+	"github.com/bhaswanth88/coredns/plugin/pkg/doh"
+	clog "github.com/bhaswanth88/coredns/plugin/pkg/log"
+	"github.com/bhaswanth88/coredns/plugin/pkg/response"
+	"github.com/bhaswanth88/coredns/plugin/pkg/reuseport"
+	"github.com/bhaswanth88/coredns/plugin/pkg/transport"
 	"github.com/coredns/caddy"
-	"github.com/coredns/coredns/plugin/metrics/vars"
-	"github.com/coredns/coredns/plugin/pkg/dnsutil"
-	"github.com/coredns/coredns/plugin/pkg/doh"
-	clog "github.com/coredns/coredns/plugin/pkg/log"
-	"github.com/coredns/coredns/plugin/pkg/response"
-	"github.com/coredns/coredns/plugin/pkg/reuseport"
-	"github.com/coredns/coredns/plugin/pkg/transport"
 )
 
 // ServerHTTPS represents an instance of a DNS-over-HTTPS server.

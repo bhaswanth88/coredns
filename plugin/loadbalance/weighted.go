@@ -17,7 +17,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coredns/coredns/plugin"
+	"github.com/bhaswanth88/coredns/plugin"
 
 	"github.com/miekg/dns"
 )

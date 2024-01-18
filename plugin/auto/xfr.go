@@ -1,7 +1,7 @@
 package auto
 
 import (
-	"github.com/coredns/coredns/plugin/transfer"
+	"github.com/bhaswanth88/coredns/plugin/transfer"
 
 	"github.com/miekg/dns"
 )

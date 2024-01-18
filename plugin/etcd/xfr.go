@@ -3,7 +3,7 @@ package etcd
 import (
 	"time"
 
-	"github.com/coredns/coredns/request"
+	"github.com/bhaswanth88/coredns/request"
 )
 
 // Serial returns the serial number to use.

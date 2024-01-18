@@ -3,7 +3,7 @@ package transfer
 import (
 	"fmt"
 
-	"github.com/coredns/coredns/plugin/pkg/rcode"
+	"github.com/bhaswanth88/coredns/plugin/pkg/rcode"
 
 	"github.com/miekg/dns"
 )

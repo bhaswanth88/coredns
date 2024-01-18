@@ -6,5 +6,5 @@ labels: question
 ---
 <!--
 Please only use this template for submitting a generic question.
-Or consider using a GitHub discussion https://github.com/coredns/coredns/discussions
+Or consider using a GitHub discussion https://github.com/bhaswanth88/coredns/discussions
 -->

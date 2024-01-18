@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/bhaswanth88/coredns/core/dnsserver"
+	clog "github.com/bhaswanth88/coredns/plugin/pkg/log"
 	"github.com/coredns/caddy"
-	"github.com/coredns/coredns/core/dnsserver"
-	clog "github.com/coredns/coredns/plugin/pkg/log"
 )
 
 func TestErrorsParse(t *testing.T) {

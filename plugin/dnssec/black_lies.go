@@ -3,8 +3,8 @@ package dnssec
 import (
 	"strings"
 
-	"github.com/coredns/coredns/plugin/pkg/response"
-	"github.com/coredns/coredns/request"
+	"github.com/bhaswanth88/coredns/plugin/pkg/response"
+	"github.com/bhaswanth88/coredns/request"
 
 	"github.com/miekg/dns"
 )

@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/coredns/coredns/plugin"
+	"github.com/bhaswanth88/coredns/plugin"
 )
 
 func testHostsfile(file string) *Hostsfile {

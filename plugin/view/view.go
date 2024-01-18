@@ -3,9 +3,9 @@ package view
 import (
 	"context"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/pkg/expression"
-	"github.com/coredns/coredns/request"
+	"github.com/bhaswanth88/coredns/plugin"
+	"github.com/bhaswanth88/coredns/plugin/pkg/expression"
+	"github.com/bhaswanth88/coredns/request"
 
 	"github.com/antonmedv/expr"
 	"github.com/antonmedv/expr/vm"

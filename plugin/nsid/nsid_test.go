@@ -5,11 +5,11 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/cache"
-	"github.com/coredns/coredns/plugin/pkg/dnstest"
-	"github.com/coredns/coredns/plugin/test"
-	"github.com/coredns/coredns/plugin/whoami"
+	"github.com/bhaswanth88/coredns/plugin"
+	"github.com/bhaswanth88/coredns/plugin/cache"
+	"github.com/bhaswanth88/coredns/plugin/pkg/dnstest"
+	"github.com/bhaswanth88/coredns/plugin/test"
+	"github.com/bhaswanth88/coredns/plugin/whoami"
 
 	"github.com/miekg/dns"
 )

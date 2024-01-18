@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/bhaswanth88/coredns/plugin/pkg/fall"
 	"github.com/coredns/caddy"
-	"github.com/coredns/coredns/plugin/pkg/fall"
 
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

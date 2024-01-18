@@ -20,7 +20,7 @@ Zhizhen He
 
 ## Noteworthy Changes
 
-* Revert "plugin/forward: Continue waiting after receiving malformed responses (https://github.com/coredns/coredns/pull/6014)" (#6270)
-* plugin/dnstap: add support for "extra" field in payload (https://github.com/coredns/coredns/pull/6226)
-* plugin/cache: fix keepttl parsing (https://github.com/coredns/coredns/pull/6250)
+* Revert "plugin/forward: Continue waiting after receiving malformed responses (https://github.com/bhaswanth88/coredns/pull/6014)" (#6270)
+* plugin/dnstap: add support for "extra" field in payload (https://github.com/bhaswanth88/coredns/pull/6226)
+* plugin/cache: fix keepttl parsing (https://github.com/bhaswanth88/coredns/pull/6250)
 

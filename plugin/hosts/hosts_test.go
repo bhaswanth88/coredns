@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/coredns/coredns/plugin/pkg/dnstest"
-	"github.com/coredns/coredns/plugin/pkg/fall"
-	"github.com/coredns/coredns/plugin/test"
+	"github.com/bhaswanth88/coredns/plugin/pkg/dnstest"
+	"github.com/bhaswanth88/coredns/plugin/pkg/fall"
+	"github.com/bhaswanth88/coredns/plugin/test"
 
 	"github.com/miekg/dns"
 )

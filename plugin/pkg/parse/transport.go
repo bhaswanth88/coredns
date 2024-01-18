@@ -3,7 +3,7 @@ package parse
 import (
 	"strings"
 
-	"github.com/coredns/coredns/plugin/pkg/transport"
+	"github.com/bhaswanth88/coredns/plugin/pkg/transport"
 )
 
 // Transport returns the transport defined in s and a string where the

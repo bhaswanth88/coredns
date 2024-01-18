@@ -128,5 +128,5 @@ With the `fallthrough` option, if the queried domain does not exist, it will be 
 # See Also
 
 For some background see [resolve external IP address](https://github.com/kubernetes/dns/issues/242).
-And [A records for services with Load Balancer IP](https://github.com/coredns/coredns/issues/1851).
+And [A records for services with Load Balancer IP](https://github.com/bhaswanth88/coredns/issues/1851).
 

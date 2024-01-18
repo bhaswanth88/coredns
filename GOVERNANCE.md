@@ -35,7 +35,7 @@ in a *reasonable* time frame, either providing insights, or assign the Pull Requ
 maintainers.
 
 Every Maintainer is listed in the
-[CODEOWNERS](https://github.com/coredns/coredns/blob/master/CODEOWNERS)
+[CODEOWNERS](https://github.com/bhaswanth88/coredns/blob/master/CODEOWNERS)
 file, with their Github handle.
 
 A Maintainer should be a member of `maintainers@coredns.io`, although this is not a hard requirement.
@@ -124,7 +124,7 @@ into the __CoreDNS__ organization, it has to meet the following criteria:
 - Must be supported by a Maintainer not associated or affiliated with the author(s) of the sub-projects
 
 The submission process starts as a Pull Request or Issue on the
-[coredns/coredns](https://github.com/coredns/coredns) repository with the required information
+[coredns/coredns](https://github.com/bhaswanth88/coredns) repository with the required information
 mentioned above. Once a project is accepted, it's considered a __CNCF sub-project under the umbrella
 of CoreDNS__.
 

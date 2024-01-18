@@ -3,8 +3,8 @@ package etcd
 import (
 	"context"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/request"
+	"github.com/bhaswanth88/coredns/plugin"
+	"github.com/bhaswanth88/coredns/request"
 
 	"github.com/miekg/dns"
 )

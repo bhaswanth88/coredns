@@ -3,8 +3,8 @@ package debug
 import (
 	"testing"
 
+	"github.com/bhaswanth88/coredns/core/dnsserver"
 	"github.com/coredns/caddy"
-	"github.com/coredns/coredns/core/dnsserver"
 )
 
 func TestDebug(t *testing.T) {

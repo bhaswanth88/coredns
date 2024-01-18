@@ -4,10 +4,10 @@ import (
 	"context"
 	"path/filepath"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/metrics/vars"
-	"github.com/coredns/coredns/plugin/pkg/rcode"
-	"github.com/coredns/coredns/request"
+	"github.com/bhaswanth88/coredns/plugin"
+	"github.com/bhaswanth88/coredns/plugin/metrics/vars"
+	"github.com/bhaswanth88/coredns/plugin/pkg/rcode"
+	"github.com/bhaswanth88/coredns/request"
 
 	"github.com/miekg/dns"
 )
@@ -30,7 +30,7 @@ func (m *Metrics) ServeDNS(ctx context.Context, w dns.ResponseWriter, r *dns.Msg
 	if !plugin.ClientWrite(status) {
 		// when no response was written, fallback to status returned from next plugin as this status
 		// is actually used as rcode of DNS response
-		// see https://github.com/coredns/coredns/blob/master/core/dnsserver/server.go#L318
+		// see https://github.com/bhaswanth88/coredns/blob/master/core/dnsserver/server.go#L318
 		rc = status
 	}
 	plugin := m.authoritativePlugin(rw.Caller)

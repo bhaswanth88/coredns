@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coredns/coredns/plugin/metrics"
-	"github.com/coredns/coredns/plugin/metrics/vars"
-	"github.com/coredns/coredns/plugin/test"
+	"github.com/bhaswanth88/coredns/plugin/metrics"
+	"github.com/bhaswanth88/coredns/plugin/metrics/vars"
+	"github.com/bhaswanth88/coredns/plugin/test"
 
 	"github.com/miekg/dns"
 )

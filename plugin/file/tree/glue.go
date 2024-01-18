@@ -1,7 +1,7 @@
 package tree
 
 import (
-	"github.com/coredns/coredns/plugin/file/rrutil"
+	"github.com/bhaswanth88/coredns/plugin/file/rrutil"
 
 	"github.com/miekg/dns"
 )

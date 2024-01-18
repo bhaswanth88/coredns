@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/coredns/coredns/request"
+	"github.com/bhaswanth88/coredns/request"
 
 	"github.com/miekg/dns"
 	"golang.org/x/crypto/ed25519"

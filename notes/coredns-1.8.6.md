@@ -16,5 +16,5 @@ Miek Gieben.
 
 ## Noteworthy Changes
 
-* plugin/kubernetes: fix reload panic (https://github.com/coredns/coredns/pull/4881)
-* plugin/kubernetes: Don't use pod names longer than 63 characters as dns labels (https://github.com/coredns/coredns/pull/4908)
+* plugin/kubernetes: fix reload panic (https://github.com/bhaswanth88/coredns/pull/4881)
+* plugin/kubernetes: Don't use pod names longer than 63 characters as dns labels (https://github.com/bhaswanth88/coredns/pull/4908)

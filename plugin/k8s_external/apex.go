@@ -1,8 +1,8 @@
 package external
 
 import (
-	"github.com/coredns/coredns/plugin/pkg/dnsutil"
-	"github.com/coredns/coredns/request"
+	"github.com/bhaswanth88/coredns/plugin/pkg/dnsutil"
+	"github.com/bhaswanth88/coredns/request"
 
 	"github.com/miekg/dns"
 )

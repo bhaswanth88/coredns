@@ -7,9 +7,9 @@ import (
 	"net"
 	"time"
 
+	"github.com/bhaswanth88/coredns/plugin/pkg/reuseport"
+	"github.com/bhaswanth88/coredns/plugin/pkg/transport"
 	"github.com/coredns/caddy"
-	"github.com/coredns/coredns/plugin/pkg/reuseport"
-	"github.com/coredns/coredns/plugin/pkg/transport"
 
 	"github.com/miekg/dns"
 )

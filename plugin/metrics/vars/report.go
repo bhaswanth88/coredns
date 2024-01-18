@@ -3,7 +3,7 @@ package vars
 import (
 	"time"
 
-	"github.com/coredns/coredns/request"
+	"github.com/bhaswanth88/coredns/request"
 )
 
 // Report reports the metrics data associated with request. This function is exported because it is also

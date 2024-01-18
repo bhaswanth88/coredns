@@ -3,7 +3,7 @@
 package chaos
 
 import (
-	"github.com/coredns/coredns/plugin/pkg/fuzz"
+	"github.com/bhaswanth88/coredns/plugin/pkg/fuzz"
 )
 
 // Fuzz fuzzes cache.

@@ -3,11 +3,11 @@ package file
 import (
 	"context"
 
-	"github.com/coredns/coredns/core/dnsserver"
-	"github.com/coredns/coredns/plugin/file/rrutil"
-	"github.com/coredns/coredns/plugin/file/tree"
-	"github.com/coredns/coredns/plugin/metadata"
-	"github.com/coredns/coredns/request"
+	"github.com/bhaswanth88/coredns/core/dnsserver"
+	"github.com/bhaswanth88/coredns/plugin/file/rrutil"
+	"github.com/bhaswanth88/coredns/plugin/file/tree"
+	"github.com/bhaswanth88/coredns/plugin/metadata"
+	"github.com/bhaswanth88/coredns/request"
 
 	"github.com/miekg/dns"
 )

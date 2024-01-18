@@ -8,7 +8,7 @@ import (
 	pp "net/http/pprof"
 	"runtime"
 
-	"github.com/coredns/coredns/plugin/pkg/reuseport"
+	"github.com/bhaswanth88/coredns/plugin/pkg/reuseport"
 )
 
 type handler struct {

@@ -31,7 +31,7 @@
 #    actual CoreDNS version in coremain/version.go
 # 3. (to test as release /release -t master VERSION can be used.
 #
-# See https://github.com/coredns/release for documentation README on what needs to be setup for this to be
+# See https://github.com/bhaswanth88/release for documentation README on what needs to be setup for this to be
 # automated (can still be done by hand if needed). Especially what environment variables need to be
 # set! This further depends on Caddy being setup and [dreck](https://github.com/miekg/dreck) running as a plugin in Caddy.
 #
@@ -133,7 +133,7 @@ notes:
 prs:
 	@echo "## Noteworthy Changes"
 	@echo
-	@git log $$(git describe --tags --abbrev=0)..HEAD --oneline | awk ' { $$1="";print } ' | sed 's/^ //' | sed -e 's|#\([0-9]\)|https://github.com/coredns/coredns/pull/\1|' | \
+	@git log $$(git describe --tags --abbrev=0)..HEAD --oneline | awk ' { $$1="";print } ' | sed 's/^ //' | sed -e 's|#\([0-9]\)|https://github.com/bhaswanth88/coredns/pull/\1|' | \
 	    grep -v '^build(deps)' | \
 	    grep -v '^auto go mod tidy' | grep -v '^auto remove' | grep -v '^auto make' | sed 's/^/* /'
 

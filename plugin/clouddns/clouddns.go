@@ -10,11 +10,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/file"
-	"github.com/coredns/coredns/plugin/pkg/fall"
-	"github.com/coredns/coredns/plugin/pkg/upstream"
-	"github.com/coredns/coredns/request"
+	"github.com/bhaswanth88/coredns/plugin"
+	"github.com/bhaswanth88/coredns/plugin/file"
+	"github.com/bhaswanth88/coredns/plugin/pkg/fall"
+	"github.com/bhaswanth88/coredns/plugin/pkg/upstream"
+	"github.com/bhaswanth88/coredns/request"
 
 	"github.com/miekg/dns"
 	gcp "google.golang.org/api/dns/v1"
